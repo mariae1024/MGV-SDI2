@@ -1,0 +1,140 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+
+
+
+#background{
+    background-image: url("land.jpg");
+	background-size: cover;
+    background-position: center;
+    
+    background-attachment: fixed;
+    height: 100%;
+    padding-top: 130px; /*to move logo, slogan and button to the center */
+	text-align: center;
+	text-shadow: none;
+    color:orangered; 	
+}
+
+
+
+h1 {
+	font-weight: 700;
+	font-size: 65px;      
+}
+
+
+
+#slogan {
+    position: relative;
+	font-size: 30px;
+    font-weight: 500;
+}
+
+hr {
+	width: 50%;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+	
+}
+
+
+footer{
+    color:grey;
+    
+}
+
+
+
+
+
+
+
+
+.smGlobalBtn{ /* global button class */
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 2px 2px #999;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 25px;
+    -moz-border-radius:25px;
+    -webkit-border-radius:25px;
+} 
+
+
+.facebookBtn{
+    background: #4060A5;
+}
+
+.facebookBtn:before{ /* use :before to add the relevant icons */
+    font-family: "FontAwesome";
+    content: "\f09a"; /* add facebook icon */
+}
+
+.facebookBtn:hover{
+    color: #4060A5;
+    background: #fff;
+}
+
+/* twitter button class*/
+.twitterBtn{
+    background: #00ABE3;
+}
+
+.twitterBtn:before{
+      font-family: "FontAwesome";
+      content: "\f099"; /* add twitter icon */
+}
+
+.twitterBtn:hover{
+      color: #00ABE3;
+      background: #fff;
+}
+
+
+/* linkedin button class*/
+.linkedinBtn{
+    background: #0094BC;
+}
+
+.linkedinBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0e1"; /* add linkedin icon */
+}
+
+.linkedinBtn:hover{
+      color: #0094BC;
+      background: #fff;
+}
+
+
+.instagramBtn{
+    background-image: linear-gradient(#2c0466, yellow, red);
+}
+
+.instagramBtn:before{
+      font-family: "FontAwesome";
+      content: "\f16d"; /* add instagram icon */
+}
+
+.instagramBtn:hover{
+      color: saddlebrown;
+      background: #fff;
+}
+.index-btn-color{
+    background-color: black !important;
+    border: 2px solid cornflowerblue !important;
+ 
+}
+
+
+
