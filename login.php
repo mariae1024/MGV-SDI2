@@ -131,7 +131,7 @@
                     <div class="form-group ml-5">
                         <label class="col-sm-2 control-label"></label>
                         <div class="col-sm-3">
-                        <div class="g-recaptcha" data-sitekey="6LfzyJgUAAAAAPeuAgsLodKfOAlChhzJ43I_S6Ql" ></div>
+                        <div class="g-recaptcha" data-sitekey="" ></div>
                         </div>
                     </div>
                 </div>

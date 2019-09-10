@@ -3,7 +3,7 @@ session_start();
 
 $post_data = http_build_query(
     array(
-        'secret' => '6LfzyJgUAAAAAIHX3I9UXa1W-873XGdL2LYfCwV8',
+        'secret' => '',
         'response' => $_POST['g-recaptcha-response'],
         'remoteip' => $_SERVER['REMOTE_ADDR']
     )
